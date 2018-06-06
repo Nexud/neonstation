@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/favicon.gif">
+    <title>Neon Station</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <audio id="white-audio">
+      <source src="audio/white.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="silver-audio">
+      <source src="audio/silver.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="gray-audio">
+      <source src="audio/gray.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="black-audio">
+      <source src="audio/black.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="blue-audio">
+      <source src="audio/blue.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="lavender-audio">
+      <source src="audio/lavender.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="indigo-audio">
+      <source src="audio/indigo.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="purple-audio">
+      <source src="audio/purple.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="violet-audio">
+      <source src="audio/violet.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="magenta-audio">
+      <source src="audio/magenta.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="pink-audio">
+      <source src="audio/pink.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="red-audio">
+      <source src="audio/red.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="brown-audio">
+      <source src="audio/brown.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="orange-audio">
+      <source src="audio/orange.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="gold-audio">
+      <source src="audio/gold.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="yellow-audio">
+      <source src="audio/yellow.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="chartreuse-audio">
+      <source src="audio/chartreuse.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="lime-audio">
+      <source src="audio/lime.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+    <audio id="green-audio">
+      <source src="audio/green.mp3" type="audio/mpeg">
+      Your browser does not support MP3 audio.
+    </audio>
+
+    <div class="wrapper">
+      <div class="flex-container pick-color">
+        <a href="index.html"><div class="call-to-action"><span class="neon-station">NEON STATION</span></div></a>
+      </div>
+      <div class="flex-container color-picker">
+        <div class="song-name" name="white"><span id="white">WHITE</span></div>
+        <div class="song-name" name="silver"><span id="silver">SILVER</span></div>
+        <div class="song-name" name="gray"><span id="gray">GRAY</span></div>
+        <div class="song-name" name="black"><span id="black">BLACK</span></div>
+        <div class="song-name" name="blue"><span id="blue">BLUE</span></div>
+        <div class="song-name" name="lavender"><span id="lavender">LAVENDER</span></div>
+        <div class="song-name" name="indigo"><span id="indigo">INDIGO</span></div>
+        <div class="song-name" name="purple"><span id="purple">PURPLE</span></div>
+        <div class="song-name" name="violet"><span id="violet">VIOLET</span></div>
+        <div class="song-name" name="magenta"><span id="magenta">MAGENTA</span></div>
+        <div class="song-name" name="pink"><span id="pink">PINK</span></div>
+        <div class="song-name" name="red"><span id="red">RED</span></div>
+        <div class="song-name" name="brown"><span id="brown">BROWN</span></div>
+        <div class="song-name" name="orange"><span id="orange">ORANGE</span></div>
+        <div class="song-name" name="gold"><span id="gold">GOLD</span></div>
+        <div class="song-name" name="yellow"><span id="yellow">YELLOW</span></div>
+        <div class="song-name" name="chartreuse"><span id="chartreuse">CHARTREUSE</span></div>
+        <div class="song-name" name="lime"><span id="lime">LIME</span></div>
+        <div class="song-name" name="green"><span id="green">GREEN</span></div>
+      </div>
+      <div class="flex-container selected-song">
+        <div class="control-song">
+          <div class="play-song">
+            <img id="play" src="assets/img/play.svg" alt="play the selected song">
+            <img id="play-hover" src="assets/img/playHover.svg" alt="play the selected song">
+          </div>
+          <div class="pause-song">
+            <img id="pause" src="assets/img/pause.svg" alt="pause the playing song">
+            <img id="pause-hover" src="assets/img/pauseHover.svg" alt="pause the playing song">
+          </div>
+        </div>
+        <div class="no-color-selected">
+          NO COLOR SELECTED
+        </div>
+        <div class="selection now-selected">
+          NOW SELECTED:
+        </div>
+        <div class="selection now-playing">
+          NOW PLAYING:
+        </div>
+        <div class="selection now-paused">
+          NOW PAUSED:
+        </div>
+        <div class="selected-song-name-empty">
+        </div>
+        <div class="selected-artist-name-empty">
+        </div>
+        <div class="selected-album-art-empty">
+        </div>
+      </div>
+      <div class="flex-container nothing-selected">
+        <div class="no-song-selected">
+          Click/touch one of the colors above to select it.
+        </div>
+      </div>
+      <div class="flex-container push" id="nothing-selected-push"></div>
+      <div class="flex-container info">
+        <div class="about">
+          <div class="info-header">
+            ABOUT
+          </div>
+          <div class="selected-artist-info">
+          </div>
+        </div>
+        <div class="lyrics">
+          <div class="info-header">
+            LYRICS
+          </div>
+          <div class="selected-song-lyrics">
+          </div>
+        </div>
+      </div>
+      <div class="flex-container push"></div>
+    </div>
+    <div class="flex-container footer">
+      <div class="back-to-top">
+        <img id="arrow-top" src="assets/img/arrowTop.svg" alt="back to the top of the page">
+        <img id="arrow-top-hover" src="assets/img/arrowTopHover.svg" alt="back to the top of the page">
+      </div>
+      <div class="copyright">
+        © 2017 Erkka Wessman.<br>
+        This website is used only for educational purposes.
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

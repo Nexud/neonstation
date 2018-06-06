@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="59px" viewBox="0 0 155 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Artboard" transform="translate(-495.000000, -142.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Colors" transform="translate(0.000000, 82.000000)">
+                <g id="Group" transform="translate(374.000000, 23.000000)">
+                    <path d="M272.880976,38.5207888 L273.82947,40.3429823 C275.360467,43.2842496 273.91727,45.6686178 270.60895,45.6686178 L146.785619,45.6686178 C138.499373,45.6686178 131.782043,52.379213 131.782043,60.6714091 L131.782043,86.8114701 C131.782043,89.0243225 132.781041,89.3385198 134.023123,87.4987975 L138.30425,81.1577679 C138.922438,80.242133 140.171015,80.0041976 141.074438,80.6137827 L140.926646,80.5140598 C141.838391,81.1292599 142.056818,82.3650277 141.422202,83.2633464 L134.0847,93.64981 C132.812978,95.449972 130.817332,95.4022392 129.623223,93.5368249 L122,81.6279782" id="Path-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
